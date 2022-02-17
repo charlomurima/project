@@ -1,0 +1,183 @@
+.body{
+    opacity: 6px;
+}
+
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+    height: 150px;
+    position: fixed;
+    width: 100%;
+    margin-top: -3.5%;
+}
+
+.topnav h1{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+.logo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.navlinks{
+    font-size: 45px;
+    display: flex;
+    margin-top: -130px;
+    float: right;
+    margin-right: 70px;
+}
+
+.navlinks a{
+    color: wheat;
+    text-decoration: none;
+    font-size: 35px;
+    row-gap: 30px;
+    padding:10px;
+}
+
+.navlinks a:hover{
+    color: aqua;
+    transition: 0.7s ease-in-out;
+}
+
+* {
+    font-size: 1.5rem;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e26d5c;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    box-shadow: 0.25rem 0.25rem 0rem #f0b2a8;
+  }
+  
+  input {
+    margin: 0 0.5rem 0 0.5rem;
+    width: 20px;
+    border: none;
+    outline: none;
+    background: #e26d5c;
+    color: white;
+  }
+  
+  ::placeholder {
+    color: #f0b2a8;
+  }
+
+.image{
+    margin-left: 100px;
+    margin-top: 40px;
+    opacity: 5px;
+}
+
+.paragraph h2{
+    font-size: 45px;
+    align-items: center;
+    margin-left: 520px;
+}
+
+.paragraphb{
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-right: 70px;
+    margin-left: 70px;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.align{
+    width: fit-content;
+}
+
+.footer h4{
+    color: white;
+    font-size: 35px;
+}
+
+.footer p{
+    color: white;
+}
+
+.sociallinks{
+    flex-direction: row;
+}
+
+.sociallinks a{
+    margin: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 50px;
+    color: wheat;
+}
+
+.sociallinks a:hover{
+    color: aqua;
+    transition:0.3s ease in;
+}
+
+.footer p{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.wrapper{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    max-width: 350px;
+    max-height: 40px;
+    width: 1000px;
+    padding: 15px;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 350px;
+}
+
+.wrapper .input {
+    width: 70%;
+    padding: 12px 18px;
+    border: 0.5px solid wheat;
+    border-radius: 2px;
+    background: #333;
+    font-size: 15px;
+}
+
+.searchbtn {
+    background: #333;
+    width: 10%;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    color: wheat;
+}
+
+.searchbtn .fas{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
